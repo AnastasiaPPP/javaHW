@@ -5,14 +5,14 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Notebook {
-    String firm;
-    String model;
-    String color;
-    String processor;
-    Double size;
-    String operatingSystem;
-    int memory;
-    int storage;
+    private String firm;
+    private String model;
+    private String color;
+    private String processor;
+    private Double size;
+    private String operatingSystem;
+    private int memory;
+    private int storage;
 
     public Notebook(String firm, String model, String color, String processor, Double size, String operatingSystem, int memory, int storage) {
         this.firm = firm;
