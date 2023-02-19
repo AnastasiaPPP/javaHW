@@ -1,6 +1,7 @@
 package Seminar1;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Main {
@@ -8,14 +9,15 @@ public class Main {
         HotDrink latte = new HotDrink("latte", 100, 70);
         HotDrink espresso = new HotDrink("espresso", 50, 80);
         HotDrink cappuccino = new HotDrink("capuccino", 200, 80);
+        List<Drink> hotDrinks = new ArrayList<>();
+        hotDrinks.add(espresso);
+        hotDrinks.add(latte);
+        hotDrinks.add(cappuccino);
 
-        List<Drink> drinkList = new ArrayList<>();
-        HotDrinkVendingMachine machine = new HotDrinkVendingMachine(drinkList);
-        machine.addHotDrink(latte);
-        machine.addHotDrink(espresso);
-        machine.addHotDrink(cappuccino);
-
-        System.out.println(machine.getProduct("latte", 100, 70));
+        Iterator<Drink> iterator = new DrinksIterator(hotDrinks);
+        while(iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
     }
 }

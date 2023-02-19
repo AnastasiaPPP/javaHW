@@ -1,13 +1,12 @@
 package Seminar1;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class DrinkVendingMachine {
 
-    public List<Drink> drinkList;
-    public DrinkVendingMachine(List<Drink> drinkList) {
-        this.drinkList = new ArrayList<>();
+    private List<Drink> drinkList;
+
+    public DrinkVendingMachine(List<Drink> drinks) {
+        this.drinkList = drinks;
     }
     public void addDrink(Drink dr) {
         drinkList.add(dr);
@@ -20,6 +19,10 @@ public class DrinkVendingMachine {
             }
         }
         return null;
+    }
+    @Override
+    public String toString() {
+        return String.format("Count of drinks = %d", drinkList.size());
     }
 }
 
