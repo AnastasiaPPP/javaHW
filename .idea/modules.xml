@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java_tasks.iml" filepath="$PROJECT_DIR$/java_tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_1/OOP_1.iml" filepath="$PROJECT_DIR$/OOP_1/OOP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_2_The_Zoo/OOP_2_The_Zoo.iml" filepath="$PROJECT_DIR$/OOP_2_The_Zoo/OOP_2_The_Zoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_tasks.iml" filepath="$PROJECT_DIR$/.idea/java_tasks.iml" />
     </modules>
   </component>
 </project>
