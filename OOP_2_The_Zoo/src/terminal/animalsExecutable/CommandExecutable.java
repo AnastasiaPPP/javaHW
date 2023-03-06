@@ -1,4 +1,4 @@
-package terminal;
+package terminal.animalsExecutable;
 
 public interface CommandExecutable {
     void execute();

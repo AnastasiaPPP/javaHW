@@ -1,4 +1,4 @@
-package terminal;
+package terminal.animalsExecutable;
 
 import zoo.Zoo;
 
@@ -11,6 +11,5 @@ public class DeleteLionExecutable implements CommandExecutable {
 
     public void execute() {
         zoo.deleteLion();
-        System.out.println("Lion is deleted");
     }
 }
