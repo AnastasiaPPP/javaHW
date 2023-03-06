@@ -1,8 +1,8 @@
 package terminal.reader;
 
-import terminal.Command;
-import terminal.animalsExecutable.CommandExecutable;
-import terminal.CommandExecutableFactory;
+import terminal.commandExecutable.Command;
+import terminal.commandExecutable.CommandExecutable;
+import terminal.commandExecutable.CommandExecutableFactory;
 import terminal.parsing.CommandParser;
 import terminal.menu.Menu;
 

@@ -1,4 +1,4 @@
-package terminal;
+package terminal.commandExecutable;
 
 import animals.Lion;
 import animals.Snake;

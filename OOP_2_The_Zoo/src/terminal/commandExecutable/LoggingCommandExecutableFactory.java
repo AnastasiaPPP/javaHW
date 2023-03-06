@@ -1,6 +1,5 @@
-package terminal;
+package terminal.commandExecutable;
 
-import terminal.animalsExecutable.CommandExecutable;
 import zoo.Zoo;
 
 public class LoggingCommandExecutableFactory extends CommandExecutableFactoryImpl {

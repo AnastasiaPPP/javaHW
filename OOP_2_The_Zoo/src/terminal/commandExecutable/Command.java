@@ -1,4 +1,4 @@
-package terminal;
+package terminal.commandExecutable;
 
 public class Command {
     private String command;

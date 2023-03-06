@@ -1,6 +1,4 @@
-package terminal;
-
-import terminal.animalsExecutable.CommandExecutable;
+package terminal.commandExecutable;
 
 public interface CommandExecutableFactory {
     CommandExecutable create(Command command);

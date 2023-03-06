@@ -6,7 +6,7 @@ import cage.LionCage;
 import cage.SnakeCage;
 import cage.WolfCage;
 import factory.LionsFactory;
-import terminal.LoggingCommandExecutableFactory;
+import terminal.commandExecutable.LoggingCommandExecutableFactory;
 import terminal.parsing.MyParser;
 import terminal.reader.TerminalReader;
 import zoo.Zoo;
